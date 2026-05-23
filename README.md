@@ -3,6 +3,7 @@
 This mod just lets you optionally see the enemies next 2 moves above their head(unless the move is a random move, then it doesn't show up, you don't get any extra information I tried to make this just like having the wiki open next to you), and clicking above the enemy opens up a modal showing off all of their moves as well as how their cycle works in the patterns section.  I also just threw in the beastiary stuff so you can see the enemy's animations when they use a specific move.  This is all programmatically generated based on the enemies so unless there is a completely bespoke interaction(or just an interaction type I didn't cover) then it should work as they ship balance updates that change things.
 
 bee guy with his moves above his head
+
 <img width="427" height="476" alt="Screenshot 2026-05-23 at 12 38 20 PM" src="https://github.com/user-attachments/assets/36b5e121-4617-47dd-8f72-f4dfc95f7def" />
 
 modal that shows his cycle
