@@ -1,9 +1,24 @@
 # Enemy Cycle
 
-I kept getting surprised by enemy attacks two or three turns out and
-wanted to be able to just see what was coming. This shows the next 3
-intents above each enemy's head and lets you click an enemy to see
-their full move cycle in a modal.
+This mod just lets you optionally see the enemies next 2 moves above their head(unless the move is a random move, then it doesn't show up), and clicking above the enemy opens up a modal showing off all of their moves as well as how their cycle works in the patterns section.  I also just threw in the beastiary stuff so you can see the enemy's animations when they use a specific move.  This is all programmatically generated based on the enemies so unless there is a completely bespoke interaction(or just an interaction type I didn't cover) then it should work as they ship balance updates that change things.
+
+bee guy with his moves above his head
+<img width="427" height="476" alt="Screenshot 2026-05-23 at 12 38 20 PM" src="https://github.com/user-attachments/assets/36b5e121-4617-47dd-8f72-f4dfc95f7def" />
+
+modal that shows his cycle
+<img width="979" height="587" alt="Screenshot 2026-05-23 at 12 38 46 PM" src="https://github.com/user-attachments/assets/e92d7f14-6e81-4028-b92e-2e8d9422f684" />
+
+a couple more examples of enemies with varying cycles:
+<img width="801" height="538" alt="Screenshot 2026-05-23 at 12 40 24 PM" src="https://github.com/user-attachments/assets/8393aaca-9492-4b3b-a175-c138ca9034b3" />
+<img width="812" height="542" alt="Screenshot 2026-05-23 at 12 42 33 PM" src="https://github.com/user-attachments/assets/c5c37b05-ba1c-4152-a281-0724ecb99e01" />
+<img width="812" height="558" alt="Screenshot 2026-05-23 at 12 41 28 PM" src="https://github.com/user-attachments/assets/3abe69cf-cce0-46f3-af15-e41088f4d250" />
+
+
+I made 3 different modes as well for the preview above enemies, it can either be always on always off(so you have to just click to see the popup to get any info) or shows on hover.
+
+If you have any suggestions or find bugs leave them as issues here and I can fix them.
+
+The rest of this was made by claude so its probably right but who knows:
 
 ## What it does
 
