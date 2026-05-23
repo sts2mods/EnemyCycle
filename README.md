@@ -17,11 +17,11 @@ a couple more examples of enemies with varying cycles:
 <img width="812" height="558" alt="Screenshot 2026-05-23 at 12 41 28 PM" src="https://github.com/user-attachments/assets/3abe69cf-cce0-46f3-af15-e41088f4d250" />
 
 
-I made 3 different modes as well for the preview above enemies, it can either be always on, always off (so you have to just click to see the popup to get any info), or shows on hover.
+I made 3 different modes as well for the preview above enemies, it can either be always on always off(so you have to just click to see the popup to get any info) or shows on hover.
 
-If you have any suggestions or find bugs, leave them as issues here and I can fix them.
+If you have any suggestions or find bugs leave them as issues here and I can fix them.
 
-The rest of this was made by claude so it's probably right but who knows:
+The rest of this was made by claude so its probably right but who knows:
 
 ## What it does
 
