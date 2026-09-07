@@ -76,7 +76,7 @@ public static class MovePredictor
         if (current == null) return result;
         var rngOrig = RngField?.GetValue(monster) as Rng;
         if (rngOrig == null) return result;
-        var rngClone = new Rng(rngOrig.Seed, rngOrig.Counter);
+        var rngClone = new Rng(rngOrig.ToSerializable());
 
         var stateLog = StateLogProp?.GetValue(sm) as List<MonsterState>;
         int originalLogCount = stateLog?.Count ?? -1;
