@@ -61,14 +61,16 @@ mod from the in-game Mods screen.
 
 ## Build from source
 
-Requires .NET 9 SDK and a local copy of Slay the Spire 2.
+Requires the .NET 9 SDK or newer and a local copy of Slay the Spire 2.
 
 ```
 ./build.sh
 ```
 
 The build script compiles `EnemyCycle.dll` and copies it + the
-manifest into your game's `mods/` folder.
+manifest into your game's `mods/` folder. It detects common Steam
+installation paths on macOS, Linux, and WSL. For other locations, set
+`STS2_GAME_DIR` to the game directory.
 
 ## All my STS2 mods
 
